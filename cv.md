@@ -9,6 +9,10 @@
 -   **E-mail**: pinncho@gmail.com
 -   **GitHub**: [unpin](https://github.com/unpin)
 
+## About me
+
+I'm a Junior JavaScript Developer looking for a Frontend/Backend/Fullstack role or an internship to gain work experience. I have some experience building REST APIs by using state-of-the-art frameworks, such as NestJs and Express, as well as front-end applications using popular frameworks such as React and Vue. I'm eager to learn new solutions and technologies pertaining to Web Development and programming in general. I constantly improve my skills by reading professional literature, watching online conferences and online courses. I'm passionate about programming because it is fun and it makes a difference in peoples' lives.
+
 ## Skills
 
 -   HTML
