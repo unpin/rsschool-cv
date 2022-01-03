@@ -4,8 +4,205 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css" />
+        <title>German Bilalov - CV</title>
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="styles/atom-one-dark.min.css" />
+        <script defer src="scripts/script.js"></script>
+        <script>
+            hljs.highlightAll();
+        </script>
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
     </head>
-    <body></body>
+    <body>
+        <header class="main-nav">
+            <nav class="container">
+                <ul class="main-nav-list">
+                    <li><a href="#contacts">Contact Info</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code Snippet</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <h1>German Bilalov</h1>
+
+            <h3>Junior JavaScript Web Developer</h3>
+
+            <section id="contacts" class="contact-info">
+                <h2>My Contact Info</h2>
+                <div class="info-wrapper">
+                    <div>
+                        <ul>
+                            <li>
+                                <strong>Address:</strong> Karaganda, Kazakhstan
+                            </li>
+                            <li><strong>Phone:</strong> +7 708 950 8050</li>
+                            <li><strong>E-mail:</strong> pinncho@gmail.com</li>
+                            <li>
+                                <strong>Github</strong>
+                                <a href="https://github.com/unpin">@unpin</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img
+                            class="profile-image"
+                            src="images/avatar.jpg"
+                            alt="Profile image"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about-me">
+                <h2>About me</h2>
+                <p>
+                    I'm a Junior JavaScript Developer looking for a
+                    Frontend/Backend/Fullstack role or an internship to gain
+                    work experience. I have some experience building REST APIs
+                    by using state-of-the-art frameworks, such as NestJs and
+                    Express, as well as front-end applications using popular
+                    frameworks such as React and Vue. I'm eager to learn new
+                    solutions and technologies pertaining to Web Development and
+                    programming in general. I constantly improve my skills by
+                    reading professional literature, watching online conferences
+                    and online courses. I'm passionate about programming because
+                    it is fun and it makes a difference in peoples' lives.
+                </p>
+            </section>
+
+            <section id="skills" class="skills">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java 8 SE</li>
+                    <li>React</li>
+                    <li>Vue</li>
+                    <li>Deno</li>
+                    <li>Node.js</li>
+                    <li>NestJS</li>
+                    <li>NextJS</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>Git</li>
+                    <li>Typescript</li>
+                    <li>Mongoose</li>
+                    <li>Express</li>
+                    <li>Webpack</li>
+                    <li>Electron</li>
+                    <li>GraphQL</li>
+                    <li>Docker</li>
+                    <li>Three.js</li>
+                    <li>Figma</li>
+                    <li>AdobeXD</li>
+                </ul>
+            </section>
+
+            <section id="code" class="code-snippet">
+                <h2>Code Snippet</h2>
+                <pre>
+                <code class="javascript hljs">
+            function findPermutations(string) {
+                if (string.length === 1) return string;
+                const output = [];
+                for (let i = 0; i &lt; string.length; i++) {
+                    const char = string[i];
+                    const rest = string.slice(0, i).concat(string.slice(i + 1));
+                    const perms = findPermutations(rest);
+                    for (const perm of perms) {
+                        output.push(char + perm);
+                    }
+                }
+                return output;
+            }
+                </code>
+                        </pre>
+            </section>
+
+            <section id="education" class="education">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>College:</strong></li>
+                    <li>College of Engineering - 2012</li>
+                    <li><strong>Courses:</strong></li>
+                    <li>
+                        Java Web Development at
+                        <a href="https://www.epam.com">EPAM Systems</a>
+                    </li>
+                    <li>
+                        NodeJS at <a href="https://rs.school">Rolling School</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="experience" class="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li>2013-2014 - Web Developer</li>
+                </ul>
+            </section>
+
+            <section id="projects" class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <a href="https://german-weather.herokuapp.com/"
+                            >Weather App Vue Application</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://chat-rooms-node.herokuapp.com/"
+                            >Chat App using Sockets</a
+                        >
+                    </li>
+                </ul>
+            </section>
+
+            <section id="languages" class="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian (Native)</li>
+                    <li>
+                        English (C1) according to the British Council and EFSET
+                        tests
+                    </li>
+                    <li>Deutsch (B1)</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <a href="https://rs.school/js/">
+                            <img
+                                class="rs-school-logo"
+                                src="images/rs_school_js.svg"
+                                alt="RS School logo"
+                            />
+                        </a>
+                        <a href="https://github.com/unpin">
+                            <img
+                                class="github-logo"
+                                src="images/github-logo.png"
+                                alt="GitHub logo"
+                            />
+                        </a>
+                    </div>
+                    <div>
+                        <div class="footer-year">2022</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
