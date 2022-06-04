@@ -1,0 +1,124 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --accent-color: rgb(236, 236, 236);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(9, 9, 197);
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    border-radius: 4px;
+}
+
+ul {
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer {
+    padding: 2rem 0;
+    background-color: var(--accent-color);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-year {
+    font-weight: 600;
+}
+
+.main-nav {
+    background-color: var(--accent-color);
+    padding: 1rem;
+}
+
+.main-nav-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-nav-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.info-wrapper {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+.profile-image {
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list > li {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(247, 247, 247);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.about-me > p {
+    max-width: 70ch;
+}
+
+.footer-logo {
+    display: flex;
+}
+
+.rs-school-logo {
+    width: 120px;
+}
+
+.github-logo {
+    margin-left: 1rem;
+    width: 40px;
+}
